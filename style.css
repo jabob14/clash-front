@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'ClanFont';
+  src: url('font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #e8e8e0;
-  font-family: Arial, sans-serif;
+  font-family: 'ClanFont', Arial, sans-serif;
   margin: 20px;
 }
 
@@ -14,7 +21,18 @@ body {
   margin-bottom: 10px;
   box-shadow: 0 2px 0 #aaa;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  color: #E7E9EA;
+  text-shadow:
+  -1px -1px 0 black,
+   1px -1px 0 black,
+  -1px  1px 0 black,
+   1px  1px 0 black,
+   3px  3px 0 black;
+}
+
+.rank {
+  width: 40px;
 }
 
 .rank {
@@ -24,4 +42,13 @@ body {
 .name {
   flex-grow: 1;
   text-align: left;
+}
+
+.donations,
+.capital,
+.games,
+.stars,
+.score {
+  width: 100px;
+  text-align: right;
 }
