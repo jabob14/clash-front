@@ -1,0 +1,27 @@
+body {
+  background-color: #e8e8e0;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f4;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 0 #aaa;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.rank {
+  width: 40px;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: left;
+}
